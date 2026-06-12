@@ -1,0 +1,9 @@
+langgraph>=0.0.26
+langchain-openai
+pydantic>=2.0.0
+fastapi
+uvicorn
+httpx
+beautifulsoup4
+python-dotenv
+python-multipart
