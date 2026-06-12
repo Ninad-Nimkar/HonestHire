@@ -1,0 +1,14 @@
+Alice Smith
+alice@example.com
+https://linkedin.com/in/alicesmith123
+https://github.com/alicesmith
+
+Experience:
+Senior Software Engineer at TechCorp (2018 - Present)
+- Built microservices using Python and FastAPI.
+- Optimized SQL queries and managed data warehousing.
+- Created robust CI/CD pipelines using GitHub Actions and Docker.
+- Integrated ML models built with PyTorch into production endpoints.
+
+Skills:
+Python, FastAPI, SQL, Docker, CI/CD, PyTorch, AWS

@@ -1,0 +1,15 @@
+Senior Backend Engineer (Python/FastAPI)
+
+We are looking for a senior backend engineer to join our core API team. 
+You will be responsible for scaling our data pipelines and microservices.
+
+Requirements:
+- 5+ years of experience with Python
+- Deep knowledge of FastAPI or Django
+- Strong SQL and data modeling skills
+- Experience with Docker and CI/CD pipelines
+- A rockstar attitude with a passion for excellence
+
+Nice to have:
+- Experience with PyTorch or ML pipelines
+- Familiarity with AWS

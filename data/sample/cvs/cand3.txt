@@ -1,0 +1,13 @@
+Charlie Davis
+charlie@example.com
+https://linkedin.com/in/charlied
+https://github.com/charlied
+
+Experience:
+Data Engineer at DataCo (2019 - Present)
+- Engineered scalable data pipelines using Python and Airflow.
+- Heavy use of SQL for data transformation.
+- Containerized workflows with Docker.
+
+Skills:
+Python, SQL, Airflow, Docker, Pandas, dbt
