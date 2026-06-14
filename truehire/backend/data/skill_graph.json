@@ -1,0 +1,441 @@
+{
+  "python": {
+    "direct_transfers": [
+      {"skill": "Python3", "confidence": 0.95},
+      {"skill": "CPython", "confidence": 0.90},
+      {"skill": "pip", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Django", "confidence": 0.70},
+      {"skill": "FastAPI", "confidence": 0.70},
+      {"skill": "Flask", "confidence": 0.70},
+      {"skill": "Pandas", "confidence": 0.65},
+      {"skill": "NumPy", "confidence": 0.65},
+      {"skill": "scikit-learn", "confidence": 0.55},
+      {"skill": "Data Pipelines", "confidence": 0.55},
+      {"skill": "Jupyter", "confidence": 0.60}
+    ]
+  },
+  "java": {
+    "direct_transfers": [
+      {"skill": "JVM", "confidence": 0.90},
+      {"skill": "Maven", "confidence": 0.85},
+      {"skill": "Gradle", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Spring", "confidence": 0.70},
+      {"skill": "Kotlin", "confidence": 0.65},
+      {"skill": "Scala", "confidence": 0.55},
+      {"skill": "Microservices", "confidence": 0.60}
+    ]
+  },
+  "javascript": {
+    "direct_transfers": [
+      {"skill": "ES6+", "confidence": 0.95},
+      {"skill": "Node.js", "confidence": 0.85},
+      {"skill": "npm", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "TypeScript", "confidence": 0.75},
+      {"skill": "React", "confidence": 0.65},
+      {"skill": "Vue", "confidence": 0.60},
+      {"skill": "Angular", "confidence": 0.55},
+      {"skill": "Express", "confidence": 0.65}
+    ]
+  },
+  "typescript": {
+    "direct_transfers": [
+      {"skill": "JavaScript", "confidence": 0.90},
+      {"skill": "Node.js", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "React", "confidence": 0.70},
+      {"skill": "Angular", "confidence": 0.65},
+      {"skill": "Vue", "confidence": 0.60},
+      {"skill": "NestJS", "confidence": 0.60}
+    ]
+  },
+  "go": {
+    "direct_transfers": [
+      {"skill": "Golang", "confidence": 0.95}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Docker", "confidence": 0.60},
+      {"skill": "Kubernetes", "confidence": 0.55},
+      {"skill": "gRPC", "confidence": 0.60},
+      {"skill": "Microservices", "confidence": 0.60},
+      {"skill": "Cloud Native", "confidence": 0.55}
+    ]
+  },
+  "rust": {
+    "direct_transfers": [
+      {"skill": "Cargo", "confidence": 0.90},
+      {"skill": "Systems Programming", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "C++", "confidence": 0.60},
+      {"skill": "WebAssembly", "confidence": 0.55},
+      {"skill": "Performance Optimization", "confidence": 0.65}
+    ]
+  },
+  "c++": {
+    "direct_transfers": [
+      {"skill": "C", "confidence": 0.85},
+      {"skill": "STL", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Rust", "confidence": 0.55},
+      {"skill": "Systems Programming", "confidence": 0.80},
+      {"skill": "Game Development", "confidence": 0.50},
+      {"skill": "Embedded Systems", "confidence": 0.55}
+    ]
+  },
+  "r": {
+    "direct_transfers": [
+      {"skill": "RStudio", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Statistics", "confidence": 0.75},
+      {"skill": "Data Visualization", "confidence": 0.70},
+      {"skill": "ggplot2", "confidence": 0.85},
+      {"skill": "Machine Learning", "confidence": 0.50}
+    ]
+  },
+  "scala": {
+    "direct_transfers": [
+      {"skill": "JVM", "confidence": 0.85},
+      {"skill": "sbt", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Spark", "confidence": 0.75},
+      {"skill": "Java", "confidence": 0.65},
+      {"skill": "Functional Programming", "confidence": 0.70},
+      {"skill": "Kafka", "confidence": 0.55}
+    ]
+  },
+  "react": {
+    "direct_transfers": [
+      {"skill": "JSX", "confidence": 0.90},
+      {"skill": "React Hooks", "confidence": 0.90},
+      {"skill": "React Router", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Next.js", "confidence": 0.70},
+      {"skill": "Redux", "confidence": 0.65},
+      {"skill": "JavaScript", "confidence": 0.80},
+      {"skill": "TypeScript", "confidence": 0.60},
+      {"skill": "CSS", "confidence": 0.65}
+    ]
+  },
+  "vue": {
+    "direct_transfers": [
+      {"skill": "Vuex", "confidence": 0.85},
+      {"skill": "Vue Router", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Nuxt.js", "confidence": 0.70},
+      {"skill": "JavaScript", "confidence": 0.80},
+      {"skill": "TypeScript", "confidence": 0.55}
+    ]
+  },
+  "angular": {
+    "direct_transfers": [
+      {"skill": "RxJS", "confidence": 0.85},
+      {"skill": "TypeScript", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "NgRx", "confidence": 0.75},
+      {"skill": "JavaScript", "confidence": 0.75}
+    ]
+  },
+  "django": {
+    "direct_transfers": [
+      {"skill": "Django REST Framework", "confidence": 0.90},
+      {"skill": "Django ORM", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "PostgreSQL", "confidence": 0.60},
+      {"skill": "Celery", "confidence": 0.55}
+    ]
+  },
+  "fastapi": {
+    "direct_transfers": [
+      {"skill": "Pydantic", "confidence": 0.90},
+      {"skill": "ASGI", "confidence": 0.85},
+      {"skill": "Uvicorn", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "async/await", "confidence": 0.75},
+      {"skill": "SQLAlchemy", "confidence": 0.55},
+      {"skill": "REST API", "confidence": 0.70}
+    ]
+  },
+  "spring": {
+    "direct_transfers": [
+      {"skill": "Spring Boot", "confidence": 0.90},
+      {"skill": "Spring MVC", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Java", "confidence": 0.85},
+      {"skill": "Microservices", "confidence": 0.65},
+      {"skill": "Hibernate", "confidence": 0.60}
+    ]
+  },
+  "node.js": {
+    "direct_transfers": [
+      {"skill": "npm", "confidence": 0.90},
+      {"skill": "Express", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "JavaScript", "confidence": 0.90},
+      {"skill": "TypeScript", "confidence": 0.65},
+      {"skill": "REST API", "confidence": 0.65}
+    ]
+  },
+  "sql": {
+    "direct_transfers": [
+      {"skill": "PostgreSQL", "confidence": 0.85},
+      {"skill": "MySQL", "confidence": 0.85},
+      {"skill": "SQLite", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Database Design", "confidence": 0.70},
+      {"skill": "Data Modeling", "confidence": 0.65},
+      {"skill": "Query Optimization", "confidence": 0.60}
+    ]
+  },
+  "pandas": {
+    "direct_transfers": [
+      {"skill": "DataFrames", "confidence": 0.90},
+      {"skill": "Data Wrangling", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "NumPy", "confidence": 0.80},
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "Data Analysis", "confidence": 0.75},
+      {"skill": "SQL", "confidence": 0.55}
+    ]
+  },
+  "numpy": {
+    "direct_transfers": [
+      {"skill": "Numerical Computing", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Pandas", "confidence": 0.75},
+      {"skill": "scikit-learn", "confidence": 0.60},
+      {"skill": "SciPy", "confidence": 0.70},
+      {"skill": "Python", "confidence": 0.85}
+    ]
+  },
+  "spark": {
+    "direct_transfers": [
+      {"skill": "PySpark", "confidence": 0.90},
+      {"skill": "Apache Spark", "confidence": 0.95}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Hadoop", "confidence": 0.65},
+      {"skill": "Data Engineering", "confidence": 0.70},
+      {"skill": "Scala", "confidence": 0.55},
+      {"skill": "SQL", "confidence": 0.60},
+      {"skill": "Kafka", "confidence": 0.55}
+    ]
+  },
+  "dbt": {
+    "direct_transfers": [
+      {"skill": "Data Transformation", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "SQL", "confidence": 0.80},
+      {"skill": "Data Warehousing", "confidence": 0.70},
+      {"skill": "Snowflake", "confidence": 0.55},
+      {"skill": "BigQuery", "confidence": 0.55}
+    ]
+  },
+  "airflow": {
+    "direct_transfers": [
+      {"skill": "Apache Airflow", "confidence": 0.95},
+      {"skill": "DAGs", "confidence": 0.90}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Data Pipelines", "confidence": 0.80},
+      {"skill": "Python", "confidence": 0.75},
+      {"skill": "ETL", "confidence": 0.70}
+    ]
+  },
+  "kafka": {
+    "direct_transfers": [
+      {"skill": "Apache Kafka", "confidence": 0.95},
+      {"skill": "Event Streaming", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Message Queues", "confidence": 0.75},
+      {"skill": "Microservices", "confidence": 0.60},
+      {"skill": "Spark", "confidence": 0.50}
+    ]
+  },
+  "pytorch": {
+    "direct_transfers": [
+      {"skill": "torch", "confidence": 0.95},
+      {"skill": "Deep Learning", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "Machine Learning", "confidence": 0.80},
+      {"skill": "TensorFlow", "confidence": 0.60},
+      {"skill": "Computer Vision", "confidence": 0.55},
+      {"skill": "NLP", "confidence": 0.55},
+      {"skill": "NumPy", "confidence": 0.70}
+    ]
+  },
+  "tensorflow": {
+    "direct_transfers": [
+      {"skill": "Keras", "confidence": 0.90},
+      {"skill": "TF", "confidence": 0.95},
+      {"skill": "Deep Learning", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "Machine Learning", "confidence": 0.80},
+      {"skill": "PyTorch", "confidence": 0.55},
+      {"skill": "NumPy", "confidence": 0.70}
+    ]
+  },
+  "scikit-learn": {
+    "direct_transfers": [
+      {"skill": "sklearn", "confidence": 0.95},
+      {"skill": "Machine Learning", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.85},
+      {"skill": "Pandas", "confidence": 0.70},
+      {"skill": "NumPy", "confidence": 0.70},
+      {"skill": "Statistics", "confidence": 0.65}
+    ]
+  },
+  "huggingface": {
+    "direct_transfers": [
+      {"skill": "Transformers", "confidence": 0.90},
+      {"skill": "HuggingFace", "confidence": 0.95}
+    ],
+    "adjacent_transfers": [
+      {"skill": "NLP", "confidence": 0.80},
+      {"skill": "PyTorch", "confidence": 0.70},
+      {"skill": "Deep Learning", "confidence": 0.65},
+      {"skill": "Fine-tuning", "confidence": 0.70}
+    ]
+  },
+  "langchain": {
+    "direct_transfers": [
+      {"skill": "LangGraph", "confidence": 0.80},
+      {"skill": "LLM Orchestration", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.80},
+      {"skill": "RAG", "confidence": 0.70},
+      {"skill": "Prompt Engineering", "confidence": 0.65},
+      {"skill": "OpenAI API", "confidence": 0.70}
+    ]
+  },
+  "docker": {
+    "direct_transfers": [
+      {"skill": "Containers", "confidence": 0.90},
+      {"skill": "Containerization", "confidence": 0.90},
+      {"skill": "Docker Compose", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Kubernetes", "confidence": 0.65},
+      {"skill": "CI/CD", "confidence": 0.60},
+      {"skill": "Linux", "confidence": 0.60},
+      {"skill": "DevOps", "confidence": 0.55}
+    ]
+  },
+  "kubernetes": {
+    "direct_transfers": [
+      {"skill": "K8s", "confidence": 0.95},
+      {"skill": "Container Orchestration", "confidence": 0.90},
+      {"skill": "Helm", "confidence": 0.80}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Docker", "confidence": 0.75},
+      {"skill": "Cloud Native", "confidence": 0.70},
+      {"skill": "Terraform", "confidence": 0.55},
+      {"skill": "DevOps", "confidence": 0.65}
+    ]
+  },
+  "terraform": {
+    "direct_transfers": [
+      {"skill": "Infrastructure as Code", "confidence": 0.90},
+      {"skill": "IaC", "confidence": 0.90},
+      {"skill": "HCL", "confidence": 0.85}
+    ],
+    "adjacent_transfers": [
+      {"skill": "AWS", "confidence": 0.60},
+      {"skill": "GCP", "confidence": 0.55},
+      {"skill": "Azure", "confidence": 0.55},
+      {"skill": "Cloud Architecture", "confidence": 0.60}
+    ]
+  },
+  "aws": {
+    "direct_transfers": [
+      {"skill": "Amazon Web Services", "confidence": 0.95},
+      {"skill": "S3", "confidence": 0.85},
+      {"skill": "EC2", "confidence": 0.85},
+      {"skill": "Lambda", "confidence": 0.80}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Cloud Architecture", "confidence": 0.75},
+      {"skill": "GCP", "confidence": 0.55},
+      {"skill": "Azure", "confidence": 0.55},
+      {"skill": "Terraform", "confidence": 0.55}
+    ]
+  },
+  "gcp": {
+    "direct_transfers": [
+      {"skill": "Google Cloud Platform", "confidence": 0.95},
+      {"skill": "BigQuery", "confidence": 0.80}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Cloud Architecture", "confidence": 0.75},
+      {"skill": "AWS", "confidence": 0.55},
+      {"skill": "Kubernetes", "confidence": 0.60}
+    ]
+  },
+  "azure": {
+    "direct_transfers": [
+      {"skill": "Microsoft Azure", "confidence": 0.95}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Cloud Architecture", "confidence": 0.75},
+      {"skill": "AWS", "confidence": 0.55},
+      {"skill": ".NET", "confidence": 0.50}
+    ]
+  },
+  "linux": {
+    "direct_transfers": [
+      {"skill": "Unix", "confidence": 0.85},
+      {"skill": "Bash", "confidence": 0.85},
+      {"skill": "Shell Scripting", "confidence": 0.80}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Docker", "confidence": 0.55},
+      {"skill": "DevOps", "confidence": 0.55},
+      {"skill": "System Administration", "confidence": 0.70}
+    ]
+  },
+  "machine learning": {
+    "direct_transfers": [
+      {"skill": "ML", "confidence": 0.95},
+      {"skill": "Deep Learning", "confidence": 0.80}
+    ],
+    "adjacent_transfers": [
+      {"skill": "Python", "confidence": 0.75},
+      {"skill": "PyTorch", "confidence": 0.65},
+      {"skill": "TensorFlow", "confidence": 0.65},
+      {"skill": "scikit-learn", "confidence": 0.70},
+      {"skill": "Statistics", "confidence": 0.65},
+      {"skill": "Data Science", "confidence": 0.70}
+    ]
+  }
+}

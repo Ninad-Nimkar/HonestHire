@@ -1,0 +1,111 @@
+[
+  {
+    "id": "cand-001",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@email.com",
+    "raw_cv": "Senior ML Engineer with 6 years of experience building production ML systems. Currently at DataScale Inc leading a team of 4 ML engineers. Built a recommendation engine serving 5M predictions/day using PyTorch, reduced inference latency by 40% through model quantization. Previously at StartupAI where I built the entire ML pipeline from scratch using Python, Spark, and Airflow. MS in Computer Science from Stanford, focused on NLP. Active open-source contributor — maintainer of pytorch-lightning-bolts (2.3k stars). I genuinely enjoy debugging distributed training issues at 2am, which probably says something about me.",
+    "linkedin_url": "https://linkedin.com/in/priyasharma-ml",
+    "github_url": "https://github.com/priyasharma-ml",
+    "skills_claimed": ["Python", "PyTorch", "TensorFlow", "SQL", "Spark", "Airflow", "Docker", "Kubernetes", "AWS", "MLOps", "Data Pipelines", "Machine Learning"],
+    "experience": [
+      {
+        "title": "Senior ML Engineer",
+        "company": "DataScale Inc",
+        "duration": "2022-Present",
+        "description": "Leading ML platform team. Built recommendation engine serving 5M predictions/day."
+      },
+      {
+        "title": "ML Engineer",
+        "company": "StartupAI",
+        "duration": "2019-2022",
+        "description": "Built end-to-end ML pipeline from scratch. First ML hire."
+      }
+    ]
+  },
+  {
+    "id": "cand-002",
+    "name": "Kevin Zhang",
+    "email": "kevin.zhang@email.com",
+    "raw_cv": "In this comprehensive overview of my career, I am a highly skilled and motivated Full Stack Developer and Machine Learning Engineer with extensive experience in leveraging cutting-edge technologies to deliver robust and scalable solutions. I have mastered Python, Java, JavaScript, TypeScript, Go, Rust, C++, React, Vue, Angular, Django, FastAPI, Spring, Node.js, Express, SQL, Pandas, NumPy, Spark, dbt, Airflow, Kafka, PyTorch, TensorFlow, scikit-learn, HuggingFace, LangChain, Docker, Kubernetes, Terraform, AWS, GCP, Azure, and Linux. I have 12 years of experience with Kubernetes container orchestration. I have delivered numerous high-impact projects across multiple domains. My portfolio showcases a comprehensive collection of projects spanning AI, web development, cloud architecture, and data engineering.",
+    "linkedin_url": "https://linkedin.com/in/kevinzhang-dev-404",
+    "github_url": "https://github.com/kevinzhang-allskills",
+    "skills_claimed": ["Python", "Java", "JavaScript", "TypeScript", "Go", "Rust", "C++", "React", "Vue", "Angular", "Django", "FastAPI", "Spring", "Node.js", "SQL", "Pandas", "NumPy", "Spark", "Airflow", "Kafka", "PyTorch", "TensorFlow", "scikit-learn", "HuggingFace", "LangChain", "Docker", "Kubernetes", "Terraform", "AWS", "GCP", "Azure", "Linux", "Machine Learning"],
+    "experience": [
+      {
+        "title": "Senior Full Stack Engineer",
+        "company": "Various Companies",
+        "duration": "2015-Present",
+        "description": "Delivered numerous high-impact projects across multiple domains leveraging cutting-edge technologies."
+      }
+    ]
+  },
+  {
+    "id": "cand-003",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@email.com",
+    "raw_cv": "Backend engineer with 7 years experience, mostly in distributed systems. Currently a Staff Engineer at PaymentCo working on real-time fraud detection (Java/Spark). Recently started transitioning to ML — completed Andrew Ng's ML specialization, built a fraud detection model that actually outperformed our rule-based system by 15%. Been doing Python side projects for 2 years, published a blog post about my journey from backend to ML that got some traction on HN. I know I don't have traditional ML credentials, but I understand systems, data, and production constraints really well. Built and operate services handling 50k requests/sec.",
+    "linkedin_url": "https://linkedin.com/in/sarahchen-eng",
+    "github_url": "https://github.com/sarahchen-backend",
+    "skills_claimed": ["Java", "Python", "Spark", "SQL", "Kafka", "Docker", "Kubernetes", "AWS", "Distributed Systems", "Data Pipelines", "Linux"],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "PaymentCo",
+        "duration": "2021-Present",
+        "description": "Real-time fraud detection system processing 50k req/sec. Built ML model that outperformed rules by 15%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "CloudScale",
+        "duration": "2018-2021",
+        "description": "Distributed microservices architecture. Led migration from monolith."
+      }
+    ]
+  },
+  {
+    "id": "cand-004",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@email.com",
+    "raw_cv": "Machine Learning Engineer specializing in deep learning and natural language processing. I have developed comprehensive solutions for text classification, sentiment analysis, named entity recognition, and question answering systems. My approach to software engineering emphasizes clean code, thorough documentation, and comprehensive test coverage. Every function is properly documented with clear docstrings following Google style. All projects include complete README files with installation instructions, usage examples, API documentation, and contributing guidelines. I believe in writing code that is not just functional but also educational and accessible to other developers.",
+    "linkedin_url": "https://linkedin.com/in/alexrivera-ml",
+    "github_url": "https://github.com/alexrivera-mlprojects",
+    "skills_claimed": ["Python", "PyTorch", "TensorFlow", "NLP", "Machine Learning", "Docker", "AWS", "SQL", "Data Pipelines"],
+    "experience": [
+      {
+        "title": "ML Engineer",
+        "company": "AI Solutions Ltd",
+        "duration": "2021-Present",
+        "description": "Developed comprehensive NLP solutions for text classification, sentiment analysis, and question answering."
+      },
+      {
+        "title": "Junior Data Scientist",
+        "company": "DataCo",
+        "duration": "2019-2021",
+        "description": "Built data pipelines and implemented machine learning models for customer analytics."
+      }
+    ]
+  },
+  {
+    "id": "cand-005",
+    "name": "Marcus Johnson",
+    "email": "marcus.j@email.com",
+    "raw_cv": "I'm a self-taught developer who came into tech through an unconventional path — started as a high school math teacher, taught myself Python during COVID lockdowns, and haven't looked back. I've been building stuff nonstop for 3 years now. My biggest project is an open-source time series forecasting library (github: mjohnson-forecast, 800+ stars) that's actually being used by a few small companies. I contribute to scikit-learn and pandas regularly. Don't have a CS degree but I've taken every relevant course on Coursera and built real things with what I learned. Currently freelancing, building ML pipelines for 3 different startups. I know some people might pass on me cuz of my background, but I'd love the chance to prove myself.",
+    "linkedin_url": "https://linkedin.com/in/marcusjohnson-dev",
+    "github_url": "https://github.com/mjohnson-forecast",
+    "skills_claimed": ["Python", "scikit-learn", "Pandas", "NumPy", "SQL", "Docker", "Machine Learning", "Data Pipelines", "FastAPI"],
+    "experience": [
+      {
+        "title": "Freelance ML Engineer",
+        "company": "Self-employed",
+        "duration": "2022-Present",
+        "description": "Building ML pipelines for 3 startups. Open-source maintainer of forecasting library (800+ stars)."
+      },
+      {
+        "title": "High School Math Teacher",
+        "company": "Lincoln High School",
+        "duration": "2015-2021",
+        "description": "Taught AP Calculus and Statistics. Self-taught programming during COVID."
+      }
+    ]
+  }
+]

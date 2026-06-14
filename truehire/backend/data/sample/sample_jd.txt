@@ -1,0 +1,35 @@
+Senior Machine Learning Engineer — TechCorp AI Labs
+
+About TechCorp AI Labs:
+We're building the next generation of AI-powered products that touch millions of users. Our team is small but mighty, and we're looking for a rockstar ML engineer to join us.
+
+What You'll Do:
+- Design and deploy production ML models serving 10M+ daily predictions
+- Build and maintain data pipelines processing terabytes of training data
+- Collaborate with product and engineering teams to ship ML features
+- Optimize model performance for latency-critical applications
+- Mentor junior engineers and contribute to our engineering culture
+
+Requirements:
+- 5+ years of experience in Python and machine learning
+- Strong proficiency with PyTorch or TensorFlow
+- 10+ years of experience with Kubernetes and container orchestration
+- Expert knowledge of SQL and data pipeline tools (Spark, Airflow)
+- Experience deploying ML models to production at scale
+- Proficiency with Docker and CI/CD practices
+- Knowledge of MLOps best practices and model monitoring
+- Strong communication skills and ability to work cross-functionally
+
+Nice to Have:
+- Experience with LLMs and prompt engineering
+- Familiarity with LangChain or similar LLM orchestration frameworks
+- AWS or GCP cloud certification
+- Publications in top ML conferences (NeurIPS, ICML, ICLR)
+- Experience with real-time inference systems
+- Contributions to open-source ML projects
+- We're looking for a 10x ninja developer who can do everything
+
+Compensation:
+$180,000 - $250,000 base + equity + benefits
+
+Location: San Francisco, CA (Hybrid — 3 days in office)
